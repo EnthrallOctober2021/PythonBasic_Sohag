@@ -73,6 +73,7 @@ print(x, y, z, sep=' | ')  # another way
 
 # String interpolation
 # old style
+# %s is for presenting String and %d is for placeholder --> numbers
 person = '%s\'s age is %d'  # need to know more
 print(person % ('Bill', 55))
 
