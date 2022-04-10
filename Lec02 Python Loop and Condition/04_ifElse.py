@@ -18,7 +18,10 @@ else:
     print(myAlphabet, "is a Consonant")
 
 # Vowel
-letter = input("Enter any alphabet: ")
+
+# input from user
+letter = input('Enter any character: ')
+# check vowel or constant and display result
 if letter.upper() in ('A', 'E', 'I', 'O', 'U'):
     print(letter, "is a Vowel")
 elif letter.lower() in ('a', 'e', 'i', 'o', 'u'):
