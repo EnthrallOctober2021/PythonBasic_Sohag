@@ -19,9 +19,9 @@ if num1 > num2:
     if num1 % 2 == 0:
         print(num1, "is an even number and greater than", num2)
     elif num1 % 2 == 1:
-        print(num1, "is an odd number and smaller than", num2)
+        print(num1, "is an odd number and greater than", num2)
 elif num1 < num2:
     if num2 % 2 == 0:
         print(num2, "is an even number and greater than", num1)
     elif num2 % 2 == 1:
-        print(num2, "is an odd number and smaller than", num1)
+        print(num2, "is an odd number and greater than", num1)

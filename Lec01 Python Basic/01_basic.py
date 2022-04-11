@@ -1,4 +1,5 @@
 import datetime
+
 print(datetime.datetime.now())
 
 # 1: To comment out multiple line, we type /**/ in Java, but in python it is below
@@ -30,9 +31,10 @@ print("I am using backslash t to get the tab option. \tDid you get it? \n\tCan't
 print("\n")
 
 # 5 (use of only \)
-# Printing single and double quote
-print("\n-------------------------------------------------------------")
-print("\'Tofael\'")  # only back slash tell the program to ignore the next symbol of it.
+# How to Print single and double quote
+print("---------- Escape Character by \ ------------")
+# we use backslash to skip coming up char or special char  ->for example "" inside ""
+print("\'Tofael\'")  # only backslash tell the program to ignore the next symbol of it.
 print('\"Tofael\"')
 print('\'Tofael\'')
 print('\*Tofael\*')
@@ -43,8 +45,36 @@ print('"Tofael"')
 print("C:\Windows")
 print("C:\'Windows'")
 
+tex1 = 'It\'s alright now'
+print(tex1)
+
 # 6(use of \r)
 # never see to use
 print("\n-------------------------------------------------------------")
 print('Hello Sir!\r 347-653-7214')  # using \r --> return carriage
 # \r don't work in Java, why?  # Shohag
+
+# for new line we use \n
+print("New\nLine")
+
+# for Carriage Return we use \r
+print("Carriage\rReturn")
+
+# for tab we use \t
+print("Tab\tTab")  # Tab Tab
+
+# for Backspace we use \b
+print("Back \bSpace")  # BackSpace
+
+# for Form Feed we use \f
+print("Form \fFeed")
+
+# for Octal value we use \ooo
+# A backslash followed by three integers will result in a octal value:
+txt = "\150\105\154\154"
+print(txt)  # hEll
+
+# for Hex value we use \xhh
+# A backslash followed by an 'x' and a hex number represents a hex value:
+txt = "\x48\x65\x6c\x6c\x6f"
+print(txt)
