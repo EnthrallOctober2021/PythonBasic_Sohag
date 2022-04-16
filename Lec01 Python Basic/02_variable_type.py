@@ -7,6 +7,7 @@ print(type(name1))
 name2 = 'T'
 print(name2)
 print(type(name2))
+print(name2, type(name2)) # we can also present ot together
 
 name3 = 'Kabir'
 print(name3)

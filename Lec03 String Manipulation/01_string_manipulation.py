@@ -1,5 +1,7 @@
 # https://www.programiz.com/python-programming/methods/string/isdecimal
 # https://pythonguides.com/
+# https://www.knowprogram.com/python-program-examples/
+
 
 print("\n.......................................................")
 myName = "Subdermatoglyphic"
@@ -101,3 +103,4 @@ print(myName[0:17:3])  # It behaves like, but not truely -->0 is initialized val
 # 3 is incremental value, value present in index 0, 3, 6, 9, 12, 15
 print(myName[0:17:2])  # It behaves like, but not truely -->0 is initialized value, 17 is conditional value <17,
 # 2 is incremental value, value present in index 0, 2, 4, 6, 8, 10, 12, 14, 16. Similar like print(myName[::2])
+

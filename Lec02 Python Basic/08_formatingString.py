@@ -37,3 +37,9 @@ print(sentence.format(age, phone))  # I am 41 and my phone number is 3474005813
 # can be used index number to be placed in correct placeholder
 txt = "The phone number {1} belongs to Alex Ferguson. His age is {0}"
 print(txt.format(age, phone))
+
+print("\n----- Use of format() --- with fraction (f)--------------------")
+txt = "Total cost is {price:.4f} dollars!"  # 2f-->.00, if 3f-->.000
+print(txt.format(price=49))
+print(txt.format(price=49.846587346856483))
+
