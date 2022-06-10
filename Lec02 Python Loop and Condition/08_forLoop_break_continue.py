@@ -39,3 +39,19 @@ for x in range(1, 20, 3):
     if x % 2 != 0:  # skipping condition
         continue
     print(x)
+print("*******just checking*********")
+for x in range(1,10,1):
+    if x==5:
+        break
+    print(x) #1 2 3 4
+print("*******just checking*********")
+for y in range (1,10,1):
+    if y==5:
+        continue
+    print(y)# only 5 will be ignored
+
+print("*******just checking*********")
+for z in range (1,10,1):
+    if z<5:
+        continue
+    print(z)#only bellow 5 will be ingnored then continue

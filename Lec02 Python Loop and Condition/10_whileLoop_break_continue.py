@@ -28,3 +28,12 @@ while i <= 12:
     i = i + 1  # i++
 
 
+print("************just checking***********")
+
+p=1
+while p<=10:
+    if p==5:
+        p=p+1
+        continue
+    print(p)
+    p=p+1

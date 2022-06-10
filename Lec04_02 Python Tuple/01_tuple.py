@@ -101,6 +101,7 @@ print("\n----- Use of for loop in sum of Tuple  -----")
 for j in tp:
     print(j)
 
+
 print("\n----- Use of Tuple without parentheses -----")
 tp10 = 'Raven', 100, 60.4, 'Davis', 'Mohammad'  # tuple might not contain parentheses
 print(tp10[0])

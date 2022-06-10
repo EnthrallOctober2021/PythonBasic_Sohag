@@ -36,12 +36,14 @@ print("global variable age:", age)
 
 
 def varAge():
-    age = 50
-    print("local variable age:", age)
+    age = 60
+    myAge=50
+    print("local variable myAge:", myAge)
+    print("local variable age same name like global:", myAge)
 
 
 varAge()
-
+print("still global variable age value that means no impact if changed in function that means that not same :",age)
 print("\n----- uses of local and global variable-----")
 id1 = 101  # global variable
 
@@ -70,18 +72,20 @@ def varCity():
 
 
 varCity()
-print("Global variable is called from inside the function if it is declared as global: ", city) # to check the condition of global now after line 67
+print("called outside funciton Global variable after using global keyword inside the function : ", city) # to check the condition of global now after line 67
 # in line 67, global turned to local
 
 print("\n----- How can we turn a global variable to local variable from the function 01 -----")
 phone = 3474005813
 
-
+print("Global variable is called-before change in function : ", phone)
 def varPhone():
     global phone
+    cell = 55555
     phone = 146488736482
     print("Local variable is called from inside the function: ", phone)
 
 
 varPhone()
-print("Global variable is called from inside the function if it is declared as global: ", phone)
+#print("calling local variable outside the funciotn:",cell) #not possible
+print("Global variable is called from outside the function after changing global in funciotn: ", phone)

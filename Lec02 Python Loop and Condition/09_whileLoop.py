@@ -27,3 +27,9 @@ while i <= n:
     total = total + i
     i = i + 1
 print("sum of all even ad odd numbers:", total)
+
+print("*********just checking************")
+x=1
+while x<10:
+    print(x)
+    x+=1
